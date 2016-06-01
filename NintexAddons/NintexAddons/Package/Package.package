@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8ac3a4cb-7491-4ec2-9978-18a938249348" solutionId="8ac3a4cb-7491-4ec2-9978-18a938249348" resetWebServer="false" name="NintexAddons" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="9384e83f-6652-4e13-a3fc-916fa969ba5e" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="72eac645-c062-49a9-9004-c9a6b630f5db" />
+  </projectItems>
+</package>

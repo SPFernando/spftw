@@ -1,0 +1,22 @@
+﻿<NintexWorkflowActivity>
+  <Name>Lanzar PowerShell</Name>
+  <Category>Nintex Addons</Category>
+  <Description>Acción personalizada que permite lanzar comandos PowerShell</Description>
+  
+  <ActivityType>NintexAddons.Code.LaunchPowerShellActivity</ActivityType>
+  <ActivityAssembly>NintexAddons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f6b0f58b76e9e85</ActivityAssembly>
+  
+  <AdapterType>NintexAddons.Code.LaunchPowerShellAdapter</AdapterType>
+  <AdapterAssembly>NintexAddons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f6b0f58b76e9e85</AdapterAssembly>
+  
+  <HandlerUrl>ActivityServer.ashx</HandlerUrl>
+  
+  <Icon>/_layouts/NintexWorkflow/NintexAddons/img/LaunchPowerShellIcon49x49.png</Icon>
+  <ToolboxIcon>/_layouts/NintexWorkflow/NintexAddons/img/LaunchPowerShellIconSmall30x30.png</ToolboxIcon>
+  <WarningIcon>/_layouts/NintexWorkflow/NintexAddons/img/LaunchPowerShellIconSmall30x30.png</WarningIcon>
+  
+  <ConfigurationDialogUrl>NintexAddons/LaunchPowerShellDialog.aspx</ConfigurationDialogUrl>
+  
+  <ShowInCommonActions>yes</ShowInCommonActions>
+  <DocumentLibrariesOnly>no</DocumentLibrariesOnly>
+</NintexWorkflowActivity>

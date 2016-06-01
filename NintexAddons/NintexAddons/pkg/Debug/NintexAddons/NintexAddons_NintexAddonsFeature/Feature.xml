@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature Id="054f6e7d-59a2-4661-b576-1cae78072700" Scope="WebApplication" AlwaysForceInstall="TRUE" ImageUrl="siteIcon.png" xmlns="http://schemas.microsoft.com/sharepoint/" Title="NintexAddonsFeature" Description="Característica que instala las CustomActivity de Nintex creadas para Persán" ReceiverAssembly="NintexAddons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f6b0f58b76e9e85" ReceiverClass="NintexAddons.Features.NintexAddonsFeature.NintexAddonsFeatureEventReceiver">
+  <ElementManifests>
+    <ElementFile Location="CustomNWA\LaunchPowerShell.nwa" />
+  </ElementManifests>
+</Feature>

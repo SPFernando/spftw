@@ -1,0 +1,5 @@
+C:\Persan TFS\LOCAL\NintexAddons\NintexAddons\bin\Debug\NintexAddons.dll
+C:\Persan TFS\LOCAL\NintexAddons\NintexAddons\bin\Debug\NintexAddons.pdb
+C:\Persan TFS\LOCAL\NintexAddons\NintexAddons\obj\Debug\NintexAddons.dll
+C:\Persan TFS\LOCAL\NintexAddons\NintexAddons\obj\Debug\NintexAddons.pdb
+C:\Persan TFS\LOCAL\NintexAddons\NintexAddons\obj\Debug\NintexAddons.csprojResolveAssemblyReference.cache

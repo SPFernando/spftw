@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8ac3a4cb-7491-4ec2-9978-18a938249348" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="NintexAddons.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\NintexWorkflow\NintexAddons\img\LaunchPowerShellIcon49x49.png" />
+    <TemplateFile Location="Layouts\NintexWorkflow\NintexAddons\img\LaunchPowerShellIconSmall30x30.png" />
+    <TemplateFile Location="Layouts\NintexWorkflow\NintexAddons\LaunchPowerShellDialog.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="NintexAddons_NintexAddonsFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>
