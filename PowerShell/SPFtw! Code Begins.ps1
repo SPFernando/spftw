@@ -6,20 +6,11 @@
        - Tipos C#
        - Objetos personalizados
 #>
- 
-function PrimeraFuncion {
-	
-	Write-Host "Mostrar mensaje tras invocar primera función"
-}
- 
-function FuncionConPasoParametros {
-	param (
-	 [parameter(Position=1, Mandatory=$false)][string]$Saludo ="Bienvenido",
-	 [parameter(Position=2, Mandatory=$true)][string]$Despedida
-   	)
-	$Mensaje = $Saludo + ". ", $Despedida
-	Write-Host $Mensaje
-}
+
+# Obtener la ruta dentro del sistema de ficheros en que se encuentra este fichero *.ps1
+$Global:CurrentPath = Split-Path $MyInvocation.MyCommand.Path
+# Invocar librería
+Import-Module $CurrentPath"\SPFtw! Libreria.ps1"
 
 try {
 	# Escribir en la consola
